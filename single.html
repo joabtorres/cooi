@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Coordenação de Informática</title>
+
+        <!-- Bootstrap -->
+        <link rel="icon" type="image/png" href="imagens/icon.png" />
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/lightbox.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+        <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+        <!--MENU FIXO-->  
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu-header">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="imagens/logo-menu.png"/></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu-header">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="posts.html" >INICIO</a></li>
+                        <li><a href="posts.html" >ALUNOS</a></li>
+                        <li><a href="posts.html" >EVENTOS</a></li>
+                        <li><a href="posts.html" >PROFESSORES</a></li>
+                        <li><a href="posts.html" >PROJETOS</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!--FIM MENU FIXO-->  
+
+        <!--HOME--> 
+        <div id="inicio" >
+            <div id="inicio-banner" class="bgParallax" data-speed="15">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src="imagens/logo-inicio.png" alt="Logotipo do IF" title="Logotipo do IF" class="img-center"/>
+                            <h2 class="text-center">Institulto Federal do Pará</h2>
+                            <h2 class="text-center">Campus Itaituba</h2>
+                            <h1 class="text-center font-bold">Coordenação de Informática</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--FIM HOME--> 
+        <!--NOTICIAS-->
+        <div id="posts" class="bg-branco">
+            <div class="container">
+                <div class="row">
+
+                    <!--POSTS-->
+                    <div class="col-md-9">
+                        <!--POST-->
+                        <div class="col-md-12 container-post">
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="text-uppercase font-bold text-green" >Novo professor de infomática no campus itaituba </h2>
+                                    <a href="imagens/professor_single-post.jpg" data-lightbox="example-set" data-title=""><img src="imagens/professor_single-post.jpg" alt="Foto do novo professor" class="img-responsive img-center"></a>
+                                    <p class="text-justify text-ident">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                                    <p class="text-justify text-ident">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+                                    <hr/>
+                                    <ul class="list-inline">
+                                        <li><small class="text-green">Categoria(s):</small> <br/> Professores</li>
+                                        <li><small class="text-green">Autor:</small> <br/> Joab Torres Alencar</li>
+                                        <li><small class="text-green">Interação:</small> <br/> 1000 Comentários</li>
+                                        <li><small class="text-green">Publicação:</small> <br/> 2 de Abril de 2017</li>
+                                    </ul>
+                                    <hr/>
+                                </div>
+                                <!--comentário-->
+                                <div class="col-md-12">
+                                    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="5"></div>      
+                                </div>
+                                <!--comentário-->
+                            </div>
+                        </div>
+                        <!--FIM POST-->
+                    </div>
+                    <!--POSTS-->
+                    <!--widget-->
+                    <div id="widget" class="col-md-3 col-sm-12 hidden-xs hidden-sm">
+                        <div class="row thumbnail">
+                            <div class="col-xs-12 page-title">
+                                <h4 class="text-uppercase">Pesquisar</h4>  
+                            </div>
+                            <div class="col-xs-12">
+                                <form action="index.html" method="POST" autocomplete="off">
+                                    <div class="input-group">
+                                        <input type="text" name="nSerach" class="form-control" placeholder="Pesquisar">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                                    </div>
+                                </form> 
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row thumbnail">
+                            <div class="col-xs-12 page-title">
+                                <h4 class="text-uppercase">Redes Socias</h4>  
+                            </div>
+                            <div class="col-xs-12">
+                                <br/>
+                                <ul class="list-inline text-center">
+                                    <li><a href="#" target="_blank" class="social-icon social-fb"></a></li>
+                                    <li><a href="#" target="_blank" class="social-icon social-ln"></a></li>
+                                    <li><a href="#" target="_blank" class="social-icon social-yo"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row thumbnail">
+                            <div class="col-xs-12 page-title">
+                                <h4 class="text-uppercase">Categorias</h4>  
+                            </div>
+                            <div class="col-xs-12">
+                                <ul class="list-unstyled">
+                                    <li><a href="posts.html" class="text-green">Alunos</a></li>
+                                    <li><a href="posts.html" class="text-green">Eventos</a></li>
+                                    <li><a href="posts.html" class="text-green">Professores</a></li>
+                                    <li><a href="posts.html" class="text-green">Projetos</a></li>
+                                    <li><a href="posts.html" class="text-green">Formandos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--widget-->
+                </div>
+            </div>
+        </div>
+        <!--FIM NOTICIAS-->
+        <!--RODAPE-->
+        <div id="rodape" class="bg-verde">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12"><p class="text-center text-uppercase">&copy; Copyrigth 2017 - Joab Torres Alencar</p></div>
+                </div>
+            </div>
+        </div>
+        <!--FIM RODAPE-->
+        <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+        <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+        <!-- CHAMANDO JS DO GoogleMaps -->
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDSYhQBpietuGLZpbqne3SB1iKHUiiGKiI&sensor=false"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <script src="js/move-top.js"></script>
+        <script src="js/easing.js"></script>
+        <script src="js/cooi_script.js"></script>
+    </body>
+</html>
